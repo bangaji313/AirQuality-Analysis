@@ -35,6 +35,6 @@ AirQuality-Analysis adalah submission proyek analisis data yang berfokus pada pe
    ```
 
 ## Hasil Analisis
-📈 Tren Bulanan Polutan: Visualisasi tren dari berbagai polutan selama satu tahun penuh
-🔥 Korelasi Faktor Lingkungan: Hubungan antara polutan dan variabel lingkungan seperti suhu, kelembaban, dan kecepatan angin
-🌐 Heatmap Geospasial: Distribusi polutan di berbagai wilayah Beijing
+- 📈 Tren Bulanan Polutan: Visualisasi tren dari berbagai polutan selama satu tahun penuh
+- 🔥 Korelasi Faktor Lingkungan: Hubungan antara polutan dan variabel lingkungan seperti suhu, kelembaban, dan kecepatan angin
+- 🌐 Heatmap Geospasial: Distribusi polutan di berbagai wilayah Beijing
