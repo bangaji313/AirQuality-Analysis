@@ -5,8 +5,8 @@ import seaborn as sns
 from streamlit.components.v1 import html
 
 # Load Data
-monthly_trend = pd.read_csv('monthly_trend.csv', index_col=0, parse_dates=True)
-correlation_matrix = pd.read_csv('correlation_matrix.csv', index_col=0)
+monthly_trend = pd.read_csv('dashboard/monthly_trend.csv', index_col=0, parse_dates=True)
+correlation_matrix = pd.read_csv('dashboard/correlation_matrix.csv', index_col=0)
 
 # Sidebar Navigation
 st.sidebar.title("Air Quality Dashboard")
@@ -35,7 +35,7 @@ elif page == "Geospatial Analysis":
 elif page == "Clustering Binning":
     st.title("Clustering Binning Polutan PM2.5")
     st.components.v1.html(open('heatmaps/PM2.5_HeatMap_Binning.html', 'r', encoding='utf-8').read(), height=600)
-    
+
 elif page == "Interactive Filtering & Analysis":
     st.title("Analisis Interaktif")
     selected_pollutant = st.multiselect("Pilih Polutan untuk Analisis", ['PM2.5', 'PM10', 'NO2', 'SO2', 'CO', 'O3'], default=['PM2.5'])
