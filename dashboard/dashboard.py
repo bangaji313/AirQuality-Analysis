@@ -30,11 +30,11 @@ elif page == "Korelasi Polutan":
 
 elif page == "Geospatial Analysis":
     st.title("Visualisasi Peta Air Quality")
-    st.components.v1.html(open('heatmaps/Beijing_Air_Quality_HeatMap.html', 'r', encoding='utf-8').read(), height=600)
+    st.components.v1.html(open('./dashboard/heatmaps/Beijing_Air_Quality_HeatMap.html', 'r', encoding='utf-8').read(), height=600)
 
 elif page == "Clustering Binning":
     st.title("Clustering Binning Polutan PM2.5")
-    st.components.v1.html(open('heatmaps/PM2.5_HeatMap_Binning.html', 'r', encoding='utf-8').read(), height=600)
+    st.components.v1.html(open('./dashboard/heatmaps/PM2.5_HeatMap_Binning.html', 'r', encoding='utf-8').read(), height=600)
 
 elif page == "Interactive Filtering & Analysis":
     st.title("Analisis Interaktif")
