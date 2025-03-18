@@ -8,7 +8,7 @@
 ## Deskripsi Proyek
 AirQuality-Analysis adalah submission proyek analisis data yang berfokus pada pemantauan kualitas udara dengan menggunakan teknik analisis data dan visualisasi interaktif. Proyek ini bertujuan untuk menjawab dua pertanyaan bisnis utama:  
 1. Bagaimana tren tingkat polutan (PM2.5, PM10, NO2, SO2, CO, O3) berubah sepanjang tahun?  
-2. Apakah suhu, kelembaban, atau kecepatan angin memiliki korelasi yang signifikan dengan konsentrasi polutan tertentu?  
+2. Bagaimana pola korelasi antara polutan udara (PM2.5, PM10, NO2, SO2, CO, O3) dengan faktor cuaca (Suhu, Tekanan Udara, Kelembaban, dan Kecepatan Angin), serta bagaimana pengaruhnya terhadap konsentrasi polutan?  
 
 ## Fitur
 - ✅ Visualisasi data tren polutan  
